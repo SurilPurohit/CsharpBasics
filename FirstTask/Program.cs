@@ -9,6 +9,7 @@ namespace com.lti.casestudy.day1
         
         static void Main(string[] args)
         {
+
             //Student s = new Student(105,"Krisha",DateTime.Parse("2004-08-05"),"HR");
             //InMemoryAppEngine ia = new InMemoryAppEngine();
             ////ia.register(s);
