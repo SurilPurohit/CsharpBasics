@@ -17,7 +17,7 @@ namespace com.lti.casestudy.day1
         {
             var myfile = @"C:\Users\Aarthi\source\repos\miniproject1\miniproject1\complaints.csv";
             var reader = new StreamReader(System.IO.File.OpenRead(myfile));
-            var csvReader = new CsvReader(reader, true);
+            //var csvReader = new CsvReader(reader, true);
             {
                 csvtable.Load(csvReader);
             }
