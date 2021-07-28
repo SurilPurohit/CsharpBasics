@@ -20,8 +20,6 @@ namespace com.lti.casestudy.day1
             //var csvReader = new CsvReader(reader, true);
             {
                 csvtable.Load(csvReader);
-                csvtable.Load(csvReader);
-                csvtable.Load();
             }
 
             reader.Close();
