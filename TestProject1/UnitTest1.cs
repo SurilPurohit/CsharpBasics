@@ -34,7 +34,7 @@ namespace TestProject1
         [Test]
         public void TestMethod4()
         {
-            int actual = b.withdraw(1000);
+            int actual = b.withdraw(10000);
             Assert.AreEqual(0, actual);
         }
 
