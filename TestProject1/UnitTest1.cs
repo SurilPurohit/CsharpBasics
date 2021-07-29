@@ -34,7 +34,7 @@ namespace TestProject1
         [Test]
         public void TestMethod4()
         {
-            int actual = b.withdraw(15000);
+            int actual = b.withdraw(1000);
             Assert.AreEqual(0, actual);
         }
 
@@ -46,10 +46,10 @@ namespace TestProject1
         }
 
         [Test]
-        public void TestMethod()
+        public void TestMethod6()
         {
             int actual = b.deposit(5000);
-            Assert.AreEqual(15500, actual);
+            Assert.AreEqual(15000, actual);
         }
     }
 }
