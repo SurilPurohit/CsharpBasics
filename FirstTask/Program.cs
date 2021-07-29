@@ -6,8 +6,7 @@ namespace com.lti.casestudy.day1
 {
     class Program
     {
-        
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
             Console.WriteLine("Hello Kevin here");
             //Student s = new Student(105,"Krisha",DateTime.Parse("2004-08-05"),"HR");
